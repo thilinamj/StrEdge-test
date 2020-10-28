@@ -10,6 +10,14 @@ import { ClientSectionComponent } from './home/client-section/client-section.com
 import { FeatureSectionComponent } from './home/feature-section/feature-section.component';
 import { StepsSectionComponent } from './home/steps-section/steps-section.component';
 import { ServicesSectionComponent } from './home/services-section/services-section.component';
+import { PortfoloioSectionComponent } from './home/portfoloio-section/portfoloio-section.component';
+import { TestimonialsSectionComponent } from './home/testimonials-section/testimonials-section.component';
+import { TeamSectionComponent } from './home/team-section/team-section.component';
+import { PricingSectionComponent } from './home/pricing-section/pricing-section.component';
+import { FaqSectionComponent } from './home/faq-section/faq-section.component';
+import { ContactSectionComponent } from './home/contact-section/contact-section.component';
+import { FooterComponent } from './home/footer/footer.component'
+
 
 @NgModule({
   declarations: [
@@ -20,7 +28,15 @@ import { ServicesSectionComponent } from './home/services-section/services-secti
     ClientSectionComponent,
     FeatureSectionComponent,
     StepsSectionComponent,
-    ServicesSectionComponent
+    ServicesSectionComponent,
+    PortfoloioSectionComponent,
+    TestimonialsSectionComponent,
+    TeamSectionComponent,
+    PricingSectionComponent,
+    FaqSectionComponent,
+    ContactSectionComponent,
+    FooterComponent,
+
   ],
   imports: [
     BrowserModule,
