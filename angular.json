@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "stredge-test"
+    }
+  },
+  "defaultProject": "stredge-test",
+  "cli": {
+    "analytics": "0e382c7c-f5f9-41e2-81b7-32b2afbd3f91"
+  }
 }
