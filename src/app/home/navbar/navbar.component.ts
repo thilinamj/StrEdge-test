@@ -20,4 +20,22 @@ export class NavbarComponent implements OnInit {
   toServices(){
     document.getElementById("services").scrollIntoView({behavior:"smooth"});
   }
+  toPortfolio()
+  {
+    document.getElementById("portfolio").scrollIntoView({behavior:"smooth"});
+  }
+  toTeam()
+  {
+    document.getElementById("team").scrollIntoView({behavior:"smooth"});
+  }
+  toPricing()
+  {
+    document.getElementById("pricing").scrollIntoView({behavior:"smooth"});
+  }
+  toContact()
+  {
+    document.getElementById("contact").scrollIntoView({behavior:"smooth"});
+  }
+
+
 }
