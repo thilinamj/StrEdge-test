@@ -16,7 +16,8 @@ import { TeamSectionComponent } from './home/team-section/team-section.component
 import { PricingSectionComponent } from './home/pricing-section/pricing-section.component';
 import { FaqSectionComponent } from './home/faq-section/faq-section.component';
 import { ContactSectionComponent } from './home/contact-section/contact-section.component';
-import { FooterComponent } from './home/footer/footer.component'
+import { FooterComponent } from './home/footer/footer.component';
+import {HttpClientModule} from '@angular/common/http'
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import { FooterComponent } from './home/footer/footer.component'
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

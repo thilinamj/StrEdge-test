@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {CategoriesService} from './categories.service'; 
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'stredge-test';
+  constructor(private categories : CategoriesService){
+
+    this.categories.getData().subscribe(data=>{
+
+      console.warn(data)
+    })
+  }
 }
