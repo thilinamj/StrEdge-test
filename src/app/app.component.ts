@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import {CategoriesService} from './categories.service'; 
-import {PostsService} from './posts.service';
+
 
 @Component({
   selector: 'app-root',
