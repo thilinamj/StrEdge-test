@@ -17,7 +17,9 @@ import { PricingSectionComponent } from './home/pricing-section/pricing-section.
 import { FaqSectionComponent } from './home/faq-section/faq-section.component';
 import { ContactSectionComponent } from './home/contact-section/contact-section.component';
 import { FooterComponent } from './home/footer/footer.component';
-import {HttpClientModule} from '@angular/common/http'
+import {HttpClientModule} from '@angular/common/http';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap'
+import { OwlModule } from 'ngx-owl-carousel';
 
 
 @NgModule({
@@ -42,7 +44,9 @@ import {HttpClientModule} from '@angular/common/http'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    NgbModule,
+    OwlModule
   ],
   providers: [],
   bootstrap: [AppComponent]
